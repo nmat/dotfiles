@@ -16,6 +16,10 @@ set hidden
 set number
 set cursorline
 
+" Set clipboard on MacVIM in OS X should work on Windows gvim also
+" Meaning: hitting yy, d etc in macvim or gvim sends command to clipboard
+set clipboard=unnamed
+
 " Set to auto read when a file is changed from the outside
 set autoread
 
