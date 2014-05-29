@@ -141,6 +141,20 @@ imap <ESC>[F <C-O><End>
 cmap <ESC>[H <Home>
 cmap <ESC>[F <End>
 
+" Add \c to be used for Mac OS X clipboard
+nnoremap <silent> <Leader>c :Copy<CR>
+vnoremap <silent> <Leader>c :Copy<CR>
+
+command! -range Copy call DoCopy(<line1>, <line2>)
+
+func! DoCopy(sline, eline)
+  exec ':'. a:sline . ',' . a:eline . 'w !pbcopy'
+  redraw
+  echohl ModeMsg
+  echon "Copied lines " a:sline "-" a:eline " to system clipboard"
+  echohl None
+endfunc
+
 " Remap VIM 0 to first non-blank character
 map 0 ^
 
