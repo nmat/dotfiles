@@ -8,22 +8,13 @@ Terminal
 ========
 
 <div style="text-align: center;">
+Standard prompt:
+<img src="http://somnium.romer.se/images/terminal2.png">
+Prompt when entering a (git,svn,mercurial) repo:
+<img src="http://somnium.romer.se/images/terminal3.png">
+Prompt on changes etc:
 <img src="http://somnium.romer.se/images/terminal.png">
 </div>
-
-Standard prompt:
-
-[user] at [hostname] in [path]<br />
-$
-
-Only shown on special occurances for git, svn, mercurial
-
-[user] at [hostname] in [path] (at [branch] [up:number] [uc:number] [pu:number])<br />
-$
-
-Example:<br />
-somnium at github in ~/GIT/dotfiles/ at master up:1 uc:3 pu:2<br />
-$
 
 Where the different items are:
 
