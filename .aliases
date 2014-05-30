@@ -38,7 +38,7 @@ alias m6='alias g6="cd `pwd`"; mdump && echo -e "\033[0;32m`pwd`\033[0m saved to
 alias m7='alias g7="cd `pwd`"; mdump && echo -e "\033[0;32m`pwd`\033[0m saved to g7 bookmark"'
 alias m8='alias g8="cd `pwd`"; mdump && echo -e "\033[0;32m`pwd`\033[0m saved to g8 bookmark"'
 alias m9='alias g9="cd `pwd`"; mdump && echo -e "\033[0;32m`pwd`\033[0m saved to g9 bookmark"'
-# mbump will preserve the bookmarks
+# mdump will preserve the bookmarks
 alias mdump='alias|grep -e "alias g[0-9]"|grep -v "alias m" > ~/.bookmarks'
 # lma will list the bookmarks
 alias lma='alias | grep -e "alias g[0-9]"|grep -v "alias m"|sed "s/alias //"'
