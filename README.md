@@ -7,6 +7,8 @@ in a nice looking terminal environment. Quick accesses to aliases etc.
 Terminal
 ========
 
+<img src="http://somnium.romer.se/images/terminal.png">
+
 Standard prompt:
 
 [user] at [hostname] in [path]<br />
