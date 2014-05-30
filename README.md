@@ -18,7 +18,7 @@ Only shown on special occurances for git, svn, mercurial
 $
 
 Example:<br />
-somnium at github in GIT/dotfiles/ at master up:1 uc:3 pu:2<br />
+somnium at github in ~/GIT/dotfiles/ at master up:1 uc:3 pu:2<br />
 $
 
 Where the different items are:
