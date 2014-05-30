@@ -7,7 +7,9 @@ in a nice looking terminal environment. Quick accesses to aliases etc.
 Terminal
 ========
 
+<div style="text-align: center;">
 <img src="http://somnium.romer.se/images/terminal.png">
+</div>
 
 Standard prompt:
 
