@@ -15,6 +15,10 @@ Terminal
 <img src="http://somnium.romer.se/images/terminal.png">
 </div>
 
+1. Standard is used if not in a repo
+2. Repo is shown of the repo
+3. Repo + changes (status) is shown (need to use git fetch on some occassions though)
+
 Where the different items are:
 
 up - updates from remote repo
