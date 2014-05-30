@@ -9,21 +9,24 @@ Terminal
 
 Standard prompt:
 
-[user] at [hostname] in [path]
+[user] at [hostname] in [path]<br />
 $
 
 Only shown on special occurances for git, svn, mercurial
 
-[user] at [hostname] in [path] (at [branch] [up:number] [uc:number] [pu:number])
+[user] at [hostname] in [path] (at [branch] [up:number] [uc:number] [pu:number])<br />
 $
 
-Example:
-somnium at github in GIT/dotfiles/ at master up:1 uc:3 pu:2
+Example:<br />
+somnium at github in ~/GIT/dotfiles/ at master up:1 uc:3 pu:2<br />
 $
 
 Where the different items are:
+
 up - updates from remote repo
+
 uc - uncommitted changes from local repo
+
 pu - number of pushes not done from local to remote repo
 
 Install
