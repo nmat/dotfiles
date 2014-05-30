@@ -8,11 +8,10 @@ Terminal
 ========
 
 <div style="text-align: center;">
-Standard prompt:
 <img src="http://somnium.romer.se/images/terminal2.png">
-Prompt when entering a (git,svn,mercurial) repo:
+
 <img src="http://somnium.romer.se/images/terminal3.png">
-Prompt on changes etc:
+
 <img src="http://somnium.romer.se/images/terminal.png">
 </div>
 
