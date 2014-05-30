@@ -27,12 +27,6 @@ uc - uncommitted changes from local repo
 
 pu - number of pushes not done from local to remote repo
 
-Install
-========
-
-Important
-========
-
 Special Thanks to....
 ========
 
