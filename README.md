@@ -4,6 +4,15 @@ dotfiles
 Sharing my files here that I use. Most of it is for doing a complete setup for editing and other things
 in a nice looking terminal environment. Quick accesses to aliases etc.
 
+Screenshots
+========
+
+Install
+========
+
+Important
+========
+
 Special Thanks to....
 ========
 
