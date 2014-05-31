@@ -1,0 +1,42 @@
+!
+! Place these in your .Xdefaults
+! Reload the file with: xrdb ~/.Xdefaults
+!
+XTerm*background:                       #000000
+XTerm*foreground:                       #cfcfc2
+XTerm*cursorColor:                      #cfcfc2                                                                                                                                                            
+XTerm*scrollBar:                        false
+XTerm*termName:                         xterm-256color
+! Use terminus font
+!XTerm*faceName:                         xft:Terminus:pixelsize=8
+XTerm*metaSendsEscape:                  true
+XTerm*highlightSelection:               true
+XTerm*trimSelection:                    true
+XTerm*cutNewline:                       false
+XTerm*colorBDMode:                      true
+
+!colors
+!black
+XTerm*color0:                           #000000
+XTerm*color8:                           #75715e
+!red
+XTerm*color1:                           #f92b72
+XTerm*color9:                           #f92b72
+!green
+XTerm*color2:                           #a5e22e
+XTerm*color10:                          #a5e22e
+!yellow
+XTerm*color3:                           #fd961f
+XTerm*color11:                          #e5db74
+!blue
+XTerm*color4:                           #ae81ff
+XTerm*color12:                          #ae81ff
+!magenta
+XTerm*color5:                           #f92b72
+XTerm*color13:                          #f92b72
+!cyan
+XTerm*color6:                           #65d9ef
+XTerm*color14:                          #65d9ef
+!white
+XTerm*color7:                           #cfcfc2
+XTerm*color15:                          #f8f8f2
