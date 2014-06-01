@@ -2,6 +2,10 @@
 ! Place these in your ~/.Xresources
 ! Reload the file with: xrdb ~/.Xresources
 !
+
+!
+! Xterm information set
+!
 XTerm*background:                       #000000
 XTerm*foreground:                       #cfcfc2
 XTerm*cursorColor:                      #cfcfc2                                                                                                                                                            
@@ -40,3 +44,8 @@ XTerm*color14:                          #65d9ef
 !white
 XTerm*color7:                           #cfcfc2
 XTerm*color15:                          #f8f8f2
+
+!
+! Aterm information set
+!
+!aterm*font:                             -*-terminus-*-*-normal-*-8-
