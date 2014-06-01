@@ -177,3 +177,45 @@ func! DeleteTrailingWS()
     exe "normal `z"
 endfunc
 autocmd BufWrite *.py :call DeleteTrailingWS()
+
+" Set statusline
+hi StatColor guibg=lightgrey guifg=black ctermbg=lightgrey ctermfg=black
+hi Modified guibg=#ff0000 guifg=black ctermbg=196 ctermfg=black
+hi statusline guibg=#303030 guifg=#bcbcbc ctermfg=250 ctermbg=236
+
+function! MyStatusLine(mode)
+    let statusline=""
+    if a:mode == 'Enter'
+        let statusline .= "%#StatColor#"
+    endif
+    let statusline .= "\(%n\)\ %f\ "
+    if a:mode == 'Enter'
+        let statusline .= "%*"
+    endif
+    let statusline .= "%#Modified#%m"
+    if a:mode == 'Leave'
+        let statusline .= "%*%r"
+    elseif a:mode == 'Enter'
+        let statusline .= "%r%*"
+    endif
+    let statusline .= "\ %{HasPaste()}%\  (%l/%L,\ %c)\ %P%=%h%w\ %y\ [%{&encoding}:%{&fileformat}]\ \ "
+    return statusline
+endfunction
+
+au WinEnter * setlocal statusline=%!MyStatusLine('Enter')
+au WinLeave * setlocal statusline=%!MyStatusLine('Leave')
+set statusline=%!MyStatusLine('Enter')
+
+function! InsertStatuslineColor(mode)
+  if a:mode == 'i'
+    hi StatColor guibg=green ctermbg=green
+  elseif a:mode == 'r'
+    hi StatColor guibg=red ctermbg=red
+  else
+    hi StatColor guibg=red ctermbg=red
+  endif
+endfunction 
+
+au InsertEnter * call InsertStatuslineColor(v:insertmode)
+au InsertChange * call InsertStatusLineColor(v:insertmode)
+au InsertLeave * hi StatColor guibg=lightgrey guifg=black ctermbg=lightgrey ctermfg=black
