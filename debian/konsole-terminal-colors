@@ -1,4 +1,4 @@
-[Background]                                                                                                                                                       
+[Background]                                                                                                                    
 Color=0,0,0
 Transparency=false
 
@@ -47,7 +47,7 @@ Color=174,129,255
 Transparency=false
 
 [Color5]
-Color=178,24,178
+Color=249,43,114
 Transparency=false
 
 [Color5Intense]
