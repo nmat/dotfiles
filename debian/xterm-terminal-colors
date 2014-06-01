@@ -1,6 +1,6 @@
 !
-! Place these in your .Xdefaults
-! Reload the file with: xrdb ~/.Xdefaults
+! Place these in your ~/.Xresources
+! Reload the file with: xrdb ~/.Xresources
 !
 XTerm*background:                       #000000
 XTerm*foreground:                       #cfcfc2
