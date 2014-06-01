@@ -113,6 +113,7 @@ highlight WildMenu      guifg=Black   guibg=#ffff00 gui=bold ctermfg=Black cterm
 highlight Cursor        guifg=Black guibg=White ctermfg=Black ctermbg=White 
 call s:hibg("ColorColumn","#333333","DarkGrey",81)
 call s:hibg("CursorLine","#333333","DarkGrey",81)
+highlight CursorLine    cterm=NONE
 call s:hibg("CursorColumn","#333333","DarkGrey",81)
 highlight NonText       guifg=#404040 ctermfg=8
 highlight SpecialKey    guifg=#404040 ctermfg=8
