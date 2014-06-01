@@ -1,0 +1,22 @@
+<Eterm-0.9>                                                                                                                    
+begin color
+  foreground #cfcfc2
+  background black
+  cursor white
+  color 0   #000000
+  color 1   #f92b72
+  color 2   #a5e22e
+  color 3   #fd961f
+  color 4   #ae81ff
+  color 5   #f92b72
+  color 6   #65d9ef
+  color 7   #cfcfc2
+  color 8   #75715e
+  color 9   #f92b72
+  color 10  #a5e22e
+  color 11  #e5db74
+  color 12  #ae81ff
+  color 13  #f92b72
+  color 14  #65d9ef
+  color 15  #f8f8f2
+end color
