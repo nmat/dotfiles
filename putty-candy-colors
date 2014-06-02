@@ -1,0 +1,37 @@
+# This is not a install file more a info file for the RGB values of candy colors
+# NOT TESTED!!!!!!
+#
+
+Foreground: 207, 207, 194
+Background: 0, 0, 0
+
+Black normal: 0, 0, 0
+Black bright: 117, 113, 96
+
+Red normal: 249, 43, 114
+Red bright: 249, 43, 114
+
+Green normal: 165, 226, 46
+Green bright: 165, 226, 46
+
+Yellow normal: 253, 150, 31
+Yellow bright: 229, 219, 116
+
+Blue normal: 174, 129, 255
+Blue bright: 174, 129, 255
+
+Magenta normal: 249, 43, 114
+Magenta bright: 249, 43, 114
+
+Cyan normal: 101, 217, 239
+Cyan bright: 101, 217, 239
+
+White normal: 207, 207, 194
+White bright: 248, 248, 242
+
+Select color: 68, 68, 68
+Selected text color: 207, 207, 194
+
+Bold color: 207, 207, 194
+
+Cursor color: 207, 207, 194
