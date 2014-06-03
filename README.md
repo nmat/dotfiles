@@ -11,6 +11,14 @@ I will be working in then I should setup things to work in all kinds of environm
 My dofiles changes all the time. So this place will be updated quite frequently to mirror those
 changes.
 
+Screenshot
+==========
+<div style="text-align: center;">
+<img src="http://somnium.romer.se/images/tmuxandvim.png">
+</div>
+
+Above is for tmux and vim so far.
+
 Terminal
 ========
 
