@@ -14,7 +14,7 @@ changes.
 Screenshot
 ==========
 <div style="text-align: center;">
-<img src="http://somnium.romer.se/images/tmuxandvim.png">
+<img src="https://somnium.romer.se/images/tmuxandvim.png">
 </div>
 
 Above is for tmux and vim so far.
@@ -23,11 +23,11 @@ Terminal
 ========
 
 <div style="text-align: center;">
-<img src="http://somnium.romer.se/images/terminal2.png">
+<img src="https://somnium.romer.se/images/terminal2.png">
 
-<img src="http://somnium.romer.se/images/terminal3.png">
+<img src="https://somnium.romer.se/images/terminal3.png">
 
-<img src="http://somnium.romer.se/images/terminal.png">
+<img src="https://somnium.romer.se/images/terminal.png">
 </div>
 
 1. Standard is used if not in a repo
