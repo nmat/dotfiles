@@ -18,6 +18,7 @@ DEFAULT="[37;40m"
 PINK="[35;40m"
 GREEN="[32;40m"
 ORANGE="[33;40m"
+CYAN="[36;40m"
 
 # Detect if current directory is a git repository
 function is_git_repository {
@@ -152,11 +153,21 @@ function set_bash_prompt () {
     BRANCH=''
   fi
 
+  if [ ! -z "$VIRTUAL_ENV" ]; then
+      if [ "`basename \"$VIRTUAL_ENV\"`" = "__" ] ; then
+          VIRTENV="[`basename \`dirname \"$VIRTUAL_ENV\"\``]"
+      else
+          VIRTENV="(`basename \"$VIRTUAL_ENV\"`)"
+      fi
+  else
+      VIRTENV=""
+  fi
+
   # Set the bash prompt variable.
   if [[ ${EUID} == 0 ]] ; then
-    PS1='\n\e${PINK}\u \e${DEFAULT}at \e${ORANGE}\h \e${DEFAULT}in \e${GREEN}\w \e${BRANCH} \e${DEFAULT}\n$ '
+    PS1='\n\e${CYAN}\u \e${DEFAULT}at \e${ORANGE}\h \e${DEFAULT}in \e${GREEN}\w \e${BRANCH} \e${DEFAULT}\n${VIRTENV}$ '
   else
-    PS1='\n\e${PINK}\u \e${DEFAULT}at \e${ORANGE}\h \e${DEFAULT}in \e${GREEN}\w \e${BRANCH} \e${DEFAULT}\n$ '
+    PS1='\n\e${CYAN}\u \e${DEFAULT}at \e${ORANGE}\h \e${DEFAULT}in \e${GREEN}\w \e${BRANCH} \e${DEFAULT}\n${VIRTENV}$ '
   fi
 }
 
